@@ -1,0 +1,11 @@
+  136  cd ga_seir/unit1/homework/u1_hw_star_wars
+  137  mkdir star_wars
+  138  mkdir star_wars/empire star_wars/rebellion
+  139  touch star_wars/empire/darth_vader.txt
+  140  echo "...heavy breathing..." > star_wars/empire/darth_vader.txt
+  141  touch star_wars/empire/emperor_palpatine.txt
+  142  mkdir star_wars/empire/death_star
+  143  mv star_wars/empire/darth_vader.txt star_wars/empire/death_star
+  144  git add .
+  145  git status
+  146  git commit -m "Finished act 1."
