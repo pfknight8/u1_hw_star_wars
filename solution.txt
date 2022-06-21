@@ -9,3 +9,13 @@
   144  git add .
   145  git status
   146  git commit -m "Finished act 1."
+  157  touch star_wars/rebellion/princess_leia.txt && echo "Help me, Obi-Wan…" > star_wars/rebellion/princess_leia.txt
+  158  touch star_wars/rebellion/obi_wan.txt
+  159  touch star_wars/rebellion/luke_skywalker.txt
+  160  mkdir star_wars/rebellion/millenium_falcon
+  161  touch star_wars/rebellion/millenium_falcon/han_solo.txt star_wars/rebellion/millenium_falcon/chewbacca.txt
+  162  mv star_wars/rebellion/luke_skywalker.txt star_wars/rebellion/obi_wan.txt star_wars/rebellion/princess_leia.txt star_wars/rebellion/millenium_falcon
+  163  mv star_wars/rebellion/millenium_falcon star_wars/empire/death_star
+  164  git add .
+  165  git status
+  166  git commit -m "Finished act 2."
