@@ -19,3 +19,13 @@
   164  git add .
   165  git status
   166  git commit -m "Finished act 2."
+  167  history | tail -56
+  168  mv star_wars/empire/death_star/millenium_falcon/* star_wars/empire/death_star
+  169  rm star_wars/empire/death_star/obi_wan.txt
+  170  mv star_wars/empire/death_star/luke_skywalker.txt star_wars/empire/death_star/princess_leia.txt star_wars/empire/death_star/chewbacca.txt star_wars/empire/death_star/han_solo.txt star_wars/empire/death_star/millenium_falcon
+  171  mv star_wars/empire/death_star/millenium_falcon star_wars/rebellion
+  172  mv star_wars/empire/death_star/darth_vader.txt star_wars/empire
+  173  rm -rf star_wars/empire/death_star
+  174  git add .
+  175  git status
+  176  git commit -m "Finished act 3."
